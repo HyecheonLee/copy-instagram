@@ -1,0 +1,49 @@
+spring:
+  profiles:
+    active: local
+  jpa:
+    open-in-view: true
+logging:
+  file:
+    path: ./logs
+file:
+  path:
+    upload-file: upload-file
+---
+spring:
+  config:
+    activate:
+      on-profile: local
+  datasource:
+    url: jdbc:mariadb://localhost:3306/insta
+    driver-class-name: org.mariadb.jdbc.Driver
+    username: insta
+    password: insta
+  jpa:
+    generate-ddl: false
+    hibernate:
+      ddl-auto: update
+      naming:
+        physical-strategy: org.hibernate.boot.model.naming.PhysicalNamingStrategyStandardImpl
+    properties:
+      hibernate:
+        dialect: org.hibernate.dialect.MariaDB103Dialect
+  security:
+    user:
+      name: insta
+      password: insta
+      roles: ADMIN
+decorator:
+  datasource:
+    p6spy:
+      enable-logging: true
+      tracing:
+        include-parameter-values: true
+      logging: slf4j
+---
+spring:
+  config:
+    activate:
+      on-profile: test
+  jpa:
+    database: h2

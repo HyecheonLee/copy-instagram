@@ -1,0 +1,179 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="5bd9d31a-5d66-4c7a-80e7-090ea0384295" name="디폴트 변경 목록" comment="">
+      <change afterPath="$PROJECT_DIR$/fontend/pages/auth/signUp.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/fontend/next.config.js" beforeDir="false" afterPath="$PROJECT_DIR$/fontend/next.config.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/fontend/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/fontend/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/fontend/pages/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/fontend/pages/index.js" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ExternalProjectsData">
+    <projectState path="$PROJECT_DIR$">
+      <ProjectState />
+    </projectState>
+  </component>
+  <component name="ExternalProjectsManager">
+    <system id="GRADLE">
+      <state>
+        <task path="$PROJECT_DIR$">
+          <activation />
+        </task>
+        <projects_view>
+          <tree_state>
+            <expand>
+              <path>
+                <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
+                <item name="copy-instagram" type="f1a62948:ProjectNode" />
+              </path>
+              <path>
+                <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
+                <item name="copy-instagram" type="f1a62948:ProjectNode" />
+                <item name="Tasks" type="e4a08cd1:TasksNode" />
+              </path>
+            </expand>
+            <select />
+          </tree_state>
+        </projects_view>
+      </state>
+    </system>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Kotlin Enum" />
+        <option value="Kotlin Object" />
+        <option value="Kotlin Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/fontend" />
+  </component>
+  <component name="GitSEFilterConfiguration">
+    <file-type-list>
+      <filtered-out-file-type name="LOCAL_BRANCH" />
+      <filtered-out-file-type name="REMOTE_BRANCH" />
+      <filtered-out-file-type name="TAG" />
+      <filtered-out-file-type name="COMMIT_BY_MESSAGE" />
+    </file-type-list>
+  </component>
+  <component name="KotlinMultiplatform">
+    <allAvailableExecutables />
+  </component>
+  <component name="ProjectId" id="20cH7eEzyVo03LBcUnWlfhHWRAd" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="showLibraryContents" value="true" />
+    <option name="sortByType" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="DatabaseDriversLRU" value="mariadb" />
+    <property name="RequestMappingsPanelOrder0" value="0" />
+    <property name="RequestMappingsPanelOrder1" value="1" />
+    <property name="RequestMappingsPanelWidth0" value="75" />
+    <property name="RequestMappingsPanelWidth1" value="75" />
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="nodejs_package_manager_path" value="npm" />
+    <property name="settings.editor.selected.configurable" value="project.propVCSSupport.Mappings" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$" />
+    </key>
+    <key name="MoveKotlinTopLevelDeclarationsDialog.RECENTS_KEY">
+      <recent name="com.hyecheon.copyinstagram.domain.entity" />
+      <recent name="com.hyecheon.copyinstagram.domain" />
+      <recent name="com.hyecheon.copyinstagram.web.dto" />
+      <recent name="com.hyecheon.copyinstagram.common.config" />
+      <recent name="com.hyecheon.copyinstagram.web.api" />
+    </key>
+    <key name="CopyKotlinDeclarationDialog.RECENTS_KEY">
+      <recent name="com.hyecheon.copyinstagram.config" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Spring Boot.CopyInstagramApplication">
+    <configuration default="true" type="ArquillianJUnit" factoryName="" nameIsGenerated="true">
+      <option name="arquillianRunConfiguration">
+        <value>
+          <option name="containerStateName" value="" />
+        </value>
+      </option>
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="auth#1" type="HttpClient.HttpRequestRunConfigurationType" factoryName="HTTP Request" temporary="true" path="$PROJECT_DIR$/http/auth.http" runType="단일 요청 실행">
+      <method v="2" />
+    </configuration>
+    <configuration name="CopyInstagramApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="copy-instagram.main" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.hyecheon.copyinstagram.CopyInstagramApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="docker-compose.yml.mariadb: Compose 배포" type="docker-deploy" factoryName="docker-compose.yml" temporary="true" server-name="Docker">
+      <deployment type="docker-compose.yml">
+        <settings>
+          <option name="services">
+            <list>
+              <option value="mariadb" />
+            </list>
+          </option>
+          <option name="sourceFilePath" value="docker-compose.yml" />
+        </settings>
+      </deployment>
+      <method v="2" />
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="HTTP 요청.auth#1" />
+        <item itemvalue="Docker.docker-compose.yml.mariadb: Compose 배포" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="애플리케이션 수준" UseSingleDictionary="true" transferred="true" />
+  <component name="StandaloneScriptsStorage">
+    <option name="files">
+      <set>
+        <option value="$PROJECT_DIR$/backend/build.gradle.kts" />
+      </set>
+    </option>
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="디폴트 작업">
+      <changelist id="5bd9d31a-5d66-4c7a-80e7-090ea0384295" name="디폴트 변경 목록" comment="" />
+      <created>1636336792821</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1636336792821</updated>
+      <workItem from="1636336794172" duration="10280000" />
+      <workItem from="1637484772011" duration="2000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <ignored-roots>
+      <path value="$PROJECT_DIR$/frontend" />
+    </ignored-roots>
+  </component>
+</project>

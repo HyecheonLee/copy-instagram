@@ -1,0 +1,9 @@
+###
+PATCH localhost:8080/api/v1/users
+Authorization: Bearer eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJhbnR0ZSIsInJvbGUiOiJST0xFX1VTRVIiLCJleHAiOjE2MzkxNDgxNjQsInVzZXJJZCI6MX0.TOugfqZT2c0vGnUv6sS8mb4HsQkF95CFHvNcaiszo74
+Content-Type: application/json
+
+{
+  "phone": "010-9536-0617"
+}
+

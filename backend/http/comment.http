@@ -1,0 +1,9 @@
+###
+POST http://localhost:8080/api/v1/comments
+Authorization: Bearer eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJhbnR0ZTMiLCJyb2xlIjoiUk9MRV9VU0VSIiwiZXhwIjoxNjQwMDYxOTE3LCJ1c2VySWQiOjN9.JLqOfghzvVgBtsu5Eyurp6pp3s82WBc4tXOVI-8XKa4
+Content-Type: application/json
+
+{
+  "content": "안녕하세요",
+  "imageId": 1
+}
