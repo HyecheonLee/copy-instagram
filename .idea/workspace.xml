@@ -4,94 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="5bd9d31a-5d66-4c7a-80e7-090ea0384295" name="디폴트 변경 목록" comment="">
-      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/index.pb" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/backend/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/backend/build.gradle.kts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/backend/docker-compose.yml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/backend/gradle/wrapper/gradle-wrapper.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/backend/gradle/wrapper/gradle-wrapper.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/backend/gradlew" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/backend/gradlew.bat" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/backend/http/auth.http" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/backend/http/comment.http" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/backend/http/image.http" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/backend/http/subscribe.http" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/backend/http/user.http" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/backend/settings.gradle.kts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/backend/src/main/kotlin/com/hyecheon/copyinstagram/CopyInstagramApplication.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/backend/src/main/kotlin/com/hyecheon/copyinstagram/aop/ExecutionAdvice.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/backend/src/main/kotlin/com/hyecheon/copyinstagram/aop/LogExecutionTime.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/backend/src/main/kotlin/com/hyecheon/copyinstagram/config/Bootstrap.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/backend/src/main/kotlin/com/hyecheon/copyinstagram/config/JpaConfig.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/backend/src/main/kotlin/com/hyecheon/copyinstagram/config/P6spyConfig.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/backend/src/main/kotlin/com/hyecheon/copyinstagram/config/WebConfig.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/backend/src/main/kotlin/com/hyecheon/copyinstagram/config/auth/InstaUserDetails.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/backend/src/main/kotlin/com/hyecheon/copyinstagram/config/auth/JwtAccessDeniedHandler.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/backend/src/main/kotlin/com/hyecheon/copyinstagram/config/auth/JwtAuthenticationEntryPoint.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/backend/src/main/kotlin/com/hyecheon/copyinstagram/config/auth/JwtFilter.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/backend/src/main/kotlin/com/hyecheon/copyinstagram/config/auth/JwtProvider.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/backend/src/main/kotlin/com/hyecheon/copyinstagram/config/auth/LoginPrincipal.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/backend/src/main/kotlin/com/hyecheon/copyinstagram/config/auth/PrincipalDetailsService.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/backend/src/main/kotlin/com/hyecheon/copyinstagram/config/auth/SecurityConfig.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/backend/src/main/kotlin/com/hyecheon/copyinstagram/domain/AuthToken.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/backend/src/main/kotlin/com/hyecheon/copyinstagram/domain/comment/Comment.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/backend/src/main/kotlin/com/hyecheon/copyinstagram/domain/comment/CommentRepository.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/backend/src/main/kotlin/com/hyecheon/copyinstagram/domain/entity/BaseEntity.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/backend/src/main/kotlin/com/hyecheon/copyinstagram/domain/entity/BaseUserEntity.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/backend/src/main/kotlin/com/hyecheon/copyinstagram/domain/image/Image.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/backend/src/main/kotlin/com/hyecheon/copyinstagram/domain/image/ImageRepository.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/backend/src/main/kotlin/com/hyecheon/copyinstagram/domain/image/SubscribeImage.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/backend/src/main/kotlin/com/hyecheon/copyinstagram/domain/insta_user/Authority.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/backend/src/main/kotlin/com/hyecheon/copyinstagram/domain/insta_user/Gender.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/backend/src/main/kotlin/com/hyecheon/copyinstagram/domain/insta_user/InstaUser.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/backend/src/main/kotlin/com/hyecheon/copyinstagram/domain/insta_user/InstaUserRepository.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/backend/src/main/kotlin/com/hyecheon/copyinstagram/domain/like/Like.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/backend/src/main/kotlin/com/hyecheon/copyinstagram/domain/like/LikeRepository.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/backend/src/main/kotlin/com/hyecheon/copyinstagram/domain/subscribe/SubScribe.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/backend/src/main/kotlin/com/hyecheon/copyinstagram/domain/subscribe/SubscribeRepository.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/backend/src/main/kotlin/com/hyecheon/copyinstagram/exception/ApiException.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/backend/src/main/kotlin/com/hyecheon/copyinstagram/exception/ImageIdNotExistsException.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/backend/src/main/kotlin/com/hyecheon/copyinstagram/exception/ImageNullException.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/backend/src/main/kotlin/com/hyecheon/copyinstagram/exception/TokenVerifyException.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/backend/src/main/kotlin/com/hyecheon/copyinstagram/exception/UserIdNotExistsException.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/backend/src/main/kotlin/com/hyecheon/copyinstagram/exception/UsernameNotExistsException.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/backend/src/main/kotlin/com/hyecheon/copyinstagram/mapper/ImageMapper.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/backend/src/main/kotlin/com/hyecheon/copyinstagram/mapper/UserMapper.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/backend/src/main/kotlin/com/hyecheon/copyinstagram/service/AuthService.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/backend/src/main/kotlin/com/hyecheon/copyinstagram/service/CommentService.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/backend/src/main/kotlin/com/hyecheon/copyinstagram/service/ImageService.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/backend/src/main/kotlin/com/hyecheon/copyinstagram/service/LikeService.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/backend/src/main/kotlin/com/hyecheon/copyinstagram/service/SubscribeService.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/backend/src/main/kotlin/com/hyecheon/copyinstagram/service/UserService.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/backend/src/main/kotlin/com/hyecheon/copyinstagram/utils/AppUtils.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/backend/src/main/kotlin/com/hyecheon/copyinstagram/utils/DateUtils.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/backend/src/main/kotlin/com/hyecheon/copyinstagram/web/api/AuthApiController.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/backend/src/main/kotlin/com/hyecheon/copyinstagram/web/api/CommentApiController.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/backend/src/main/kotlin/com/hyecheon/copyinstagram/web/api/ImageApiController.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/backend/src/main/kotlin/com/hyecheon/copyinstagram/web/api/SubscribeApiController.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/backend/src/main/kotlin/com/hyecheon/copyinstagram/web/api/UploadService.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/backend/src/main/kotlin/com/hyecheon/copyinstagram/web/api/UserApiController.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/backend/src/main/kotlin/com/hyecheon/copyinstagram/web/constant/UriConstant.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/backend/src/main/kotlin/com/hyecheon/copyinstagram/web/dto/CommentDto.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/backend/src/main/kotlin/com/hyecheon/copyinstagram/web/dto/ImageDto.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/backend/src/main/kotlin/com/hyecheon/copyinstagram/web/dto/InstaUserDto.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/backend/src/main/kotlin/com/hyecheon/copyinstagram/web/dto/LikeDto.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/backend/src/main/kotlin/com/hyecheon/copyinstagram/web/dto/ResponseDto.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/backend/src/main/kotlin/com/hyecheon/copyinstagram/web/dto/SubscribeDto.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/backend/src/main/resources/application.yml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/backend/src/test/kotlin/com/hyecheon/copyinstagram/CopyInstagramApplicationTests.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/fontend" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/fontend/pages/auth/signUp.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/fontend/next.config.js" beforeDir="false" afterPath="$PROJECT_DIR$/fontend/next.config.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/fontend/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/fontend/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/fontend/pages/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/fontend/pages/index.js" afterDir="false" />
-    </list>
+    <list default="true" id="5bd9d31a-5d66-4c7a-80e7-090ea0384295" name="디폴트 변경 목록" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -137,7 +50,7 @@
     </option>
   </component>
   <component name="Git.Settings">
-    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/fontend" />
   </component>
   <component name="GitSEFilterConfiguration">
     <file-type-list>
@@ -164,6 +77,7 @@
     <property name="RequestMappingsPanelWidth1" value="75" />
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="SONARLINT_PRECOMMIT_ANALYSIS" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
@@ -246,8 +160,16 @@
       <option name="presentableId" value="Default" />
       <updated>1636336792821</updated>
       <workItem from="1636336794172" duration="10280000" />
-      <workItem from="1637484772011" duration="366000" />
+      <workItem from="1637484772011" duration="679000" />
     </task>
+    <task id="LOCAL-00001" summary="frontend">
+      <created>1637485438374</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1637485438374</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -268,5 +190,7 @@
     <ignored-roots>
       <path value="$PROJECT_DIR$/frontend" />
     </ignored-roots>
+    <MESSAGE value="frontend" />
+    <option name="LAST_COMMIT_MESSAGE" value="frontend" />
   </component>
 </project>
